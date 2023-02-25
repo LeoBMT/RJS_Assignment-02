@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 0;
+  width: 98%;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+}
+.navbar svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.navbar h2 {
+  color: red;
+  margin: 0;
+  cursor: pointer;
+}
+.bgcolor1 {
+  background-color: transparent;
+}
+.bgcolor2 {
+  background-color: black;
+}

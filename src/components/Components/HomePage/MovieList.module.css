@@ -1,0 +1,9 @@
+.movielist {
+  background-color: #111;
+  color: #fff;
+  padding: 0 2rem;
+}
+h3 {
+  margin-bottom: 0;
+  transform: translateY(50%);
+}

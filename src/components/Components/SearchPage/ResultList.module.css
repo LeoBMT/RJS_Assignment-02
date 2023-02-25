@@ -1,0 +1,18 @@
+.result {
+  color: #fff;
+}
+
+.movie img {
+  width: 10rem;
+  margin: 0.3rem;
+  transition: transform 0.1s ease-in;
+}
+
+.movie img:hover {
+  transform: scale(1.2);
+  box-shadow: 2px 2px 10px rgba(129, 129, 129, 0.3);
+}
+
+.movie h3 {
+  margin-left: 3rem;
+}

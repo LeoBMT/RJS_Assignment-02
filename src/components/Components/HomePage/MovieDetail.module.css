@@ -1,0 +1,27 @@
+.moviedetail {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+  z-index: 10;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.moviedetail > div {
+  width: 48%;
+}
+
+.moviedetail h1 {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #fff;
+}
+
+.moviedetail img {
+  width: 50%;
+  max-height: 100%;
+}
